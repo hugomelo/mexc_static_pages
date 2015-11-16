@@ -12,6 +12,6 @@
  * @link          https://github.com/museudecienciasunicamp/mexc_static_pages.git Mexc Static Pages public repository
  */
 
-class MexcStaticPagesAppController extends MexcAppController
+class MexcStaticPagesAppController extends RedeAppController
 {
 }
