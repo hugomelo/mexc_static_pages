@@ -12,7 +12,7 @@
  * @link          https://github.com/museudecienciasunicamp/mexc_static_pages.git Mexc Static Pages public repository
  */
 
-echo $this->Bl->sbox(array(), array('size' => array('M' => 6, 'g' => -1), 'type' => 'cloud'));
+echo $this->Bl->sbox(array(), array('size' => array('M' => 6, 'g' => -1), 'type' => ''));
 	
 	echo $this->Cork->tile(array(), array(
 		'key' => $section['FactSection']['metadata']['corktile_key'],

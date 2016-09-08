@@ -27,6 +27,7 @@ class MexcStaticPagesController extends MexcStaticPagesAppController
 				'FactSection.metadata LIKE' => '%'.$address.'%'
 			)
 		));
+		$site = $section;
 		
 		if (empty($section))
 		{
@@ -34,6 +35,6 @@ class MexcStaticPagesController extends MexcStaticPagesAppController
 			$this->cakeError('error404');
 		}
 		
-		$this->set(compact('section'));
+		$this->set(compact('section', 'site'));
 	}
 }
